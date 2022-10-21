@@ -6,10 +6,15 @@
 6. Line 13 will return an error because the let variable cares about block scope and since discountedPrice is declared in the for loop block the when console.log calls it outside the for block it is undefined.
 7. Line 14 will return finalPrice variable as 150 because let datatype cares about block scope and since finalPrice is declared in the function block and console.log calls finalPrice variable in the function block it returns the value of finalPrice.
 8. This function will return the discounted array because let datatype cares about block scope and since discounted is declared in the function block and console.log calls discounted array in the function block it returns the value of discounted.
-9. s
-10. s
-11. s
-12. s
+9. At line 11 it returns an error because i is a variable with a let datatype which means that it cares about block scope and because it was declared in the for loop and we are calling console outside the for loop i is undefined.
+10. At line 12 it returns 3 because length is a variable with const datatype and because length wasn't updated at line 12 it just returns the length of the prices array.
+11. This function returns the discounted array because even though discounted is a const datatype push variables into the array it just means that every value in each index of the array will have a const datatype.
+12. 
+    A. student.name
+    B. student["Grad Year"]
+    C. student.greeting();
+    D. student["Favorite Teacher"].name
+    E. student.courseLoad[0]
 13. explain!
     A. 32
     B. 1
@@ -27,3 +32,5 @@
     E. false
     F. true
 15. diff between == and ===
+17. The result is an array [2,4,6]. explain.
+18. 1,4,3,2
