@@ -9,7 +9,7 @@
 9. At line 11 it returns an error because i is a variable with a let datatype which means that it cares about block scope and because it was declared in the for loop and we are calling console outside the for loop i is undefined.
 10. At line 12 it returns 3 because length is a variable with const datatype and because length wasn't updated at line 12 it just returns the length of the prices array.
 11. This function returns the discounted array because even though discounted is a const datatype push variables into the array it just means that every value in each index of the array will have a const datatype.
-12. 
+12.  <br>
     A. student.name
     B. student["Grad Year"]
     C. student.greeting();
