@@ -33,4 +33,4 @@
     F. true because === compares data types and because both true and Boolean(2) are booleans it is true. Then when we compare operands we can see that Boolean(2) just means true so true === Boolean(2) is the same as true === true which would return true.
 15. The difference between == and === is that while == does the type comparison of the operands before comparing them, === compares the values and the data types of the operands. <br>
 17) The result is an array [2,4,6] because the modifyArray function is given an array which is [1,2,3] and a callback function called doSomething which will be executed when called in the modifyArray function. Then we do the for loop and in the for loop we populate our newArr array by calling on the function and giving it each integer of the array so for example in the first iteration we would call the doSomething function and give it an input of the array[0] which is 1 then doSomething would multiply it by 2 and return that and then that result will be pushed into the newArr and we do that until we get to the array.length so we end up returning the newArr which now has [2,4,6]. <br>
-19 1,4,3,2
+19. 1,4,3,2
